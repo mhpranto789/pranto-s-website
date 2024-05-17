@@ -14,12 +14,17 @@ h2 {
     font-size: 60px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 .orange-color {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .upper-part {
@@ -38,9 +43,16 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 400;
+    margin-top: 150px;
 }
 
 .top-banner {
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
